@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ViewFlipper
+        android:id="@+id/form_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/data_bottom_bar"
+        android:layout_alignParentTop="true">
+
+        <include
+            android:id="@+id/question_set_view_1"
+            layout="@layout/question_set_view_1" />
+
+        <include
+            android:id="@+id/question_set_view_2"
+            layout="@layout/question_set_view_2" />
+
+        <include
+            android:id="@+id/question_set_view_3"
+            layout="@layout/question_set_view_3" />
+    </ViewFlipper>
+
+    <LinearLayout
+        android:id="@+id/data_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/data_entry_bottom_bar_height"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/previous_page"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/previous"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/next_page"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/next"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</RelativeLayout>

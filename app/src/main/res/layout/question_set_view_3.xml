@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/swollen_gums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/swollen_gums_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/swollen_gums_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_swollen_gums"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dark_gums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/dark_gums_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/dark_gums_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_dark_red_gums"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gum_inflammation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/gum_inflammation_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/gum_inflammation_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_gum_inflammation"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tender_gums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/tender_gums_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/tender_gums_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_tender_gums"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gums_bleed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/gums_bleed_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/gums_bleed_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_gums_bleed"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+</LinearLayout>

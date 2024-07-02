@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/findmydoc"
+    tools:context=".booking">
+
+
+    <TextView
+        android:id="@+id/lab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APPOINTMENT BOOKING"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/baddress"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_bg"
+        android:color="@color/white"
+        android:drawableLeft="@drawable/baddress"
+        android:drawablePadding="10sp"
+
+
+        android:paddingLeft="20sp"
+        android:paddingTop="10sp"
+        android:paddingRight="10sp"
+        android:textColor="@color/white"
+        android:textColorHint="#3BFFFFFF"
+
+        app:layout_constraintBottom_toTopOf="@+id/med_price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/med_name" />
+
+    <TextView
+        android:id="@+id/med_name"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_bg"
+        android:color="@color/white"
+        android:drawableLeft="@drawable/ic_bname"
+        android:drawablePadding="10sp"
+
+
+        android:paddingLeft="20sp"
+        android:paddingTop="10sp"
+        android:paddingRight="10sp"
+        android:textColor="@color/white"
+        android:textColorHint="#3BFFFFFF"
+
+        app:layout_constraintBottom_toTopOf="@+id/baddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lab" />
+
+
+    <TextView
+        android:id="@+id/med_price"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_bg"
+        android:color="@color/white"
+        android:drawableLeft="@drawable/bcash"
+        android:drawablePadding="10sp"
+        android:ems="10"
+
+
+        android:paddingLeft="20sp"
+        android:paddingTop="10sp"
+        android:paddingRight="10sp"
+        android:textColor="@color/white"
+        android:textColorHint="#3BFFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/baddress" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/add_cart_med"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/med_price">
+
+        <TextView
+            android:id="@+id/btime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="    TIME"
+            android:textColor="#DCFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/timebutton"
+            style="?android:spinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/add_cart_med"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/med_price">
+
+        <TextView
+            android:id="@+id/bdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DATE"
+            android:textColor="#DCFFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/datebutton"
+            style="?android:spinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="27/1/2023" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_cart_med"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_bg"
+        android:text="CONFIRM"
+        app:backgroundTint="#FA3B7C"
+        app:layout_constraintBottom_toTopOf="@+id/back_button_med"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <Button
+        android:id="@+id/back_button_med"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_bg"
+        android:text="BACK"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintBottom_toTopOf="@+id/registered"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_cart_med" />
+
+    <TextView
+        android:id="@+id/registered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+
+        android:textColor="#DCFFFFFF"
+
+        android:textSize="18sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_button_med" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

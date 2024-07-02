@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ir1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="400dp"
+        android:layout_height="443dp"
+        android:contentDescription="@string/ani_mage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="90dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="90dp"
+                android:text="First Trimestar Food Habit"
+                android:textColor="@color/pink"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="60dp"
+                android:text="@string/Text1st"
+
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="350dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="70dp"
+                android:layout_height="350dp"
+                android:src="@drawable/pf" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="70dp"
+                android:text="@string/Text2nd"
+
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="90dp"
+                android:text="Second Trimestar Food Habit"
+                android:textColor="@color/pink"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_marginTop="1dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="70dp"
+                android:textColor="@color/black"
+                android:text="@string/Text3rd"/>
+
+            <ImageView
+                android:id="@+id/imageView99"
+                android:layout_width="350dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="70dp"
+                android:layout_height="200dp"
+                android:src="@drawable/we" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_marginTop="1dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="70dp"
+                android:textColor="@color/black"
+                android:text="@string/Text4th"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="90dp"
+                android:text="Third Trimestar Food Habit"
+                android:textColor="@color/pink"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_marginTop="1dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="70dp"
+                android:textColor="@color/black"
+                android:text="@string/Text3rd"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="350dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="70dp"
+                android:layout_height="200dp"
+                android:src="@drawable/fr" />
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_marginTop="1dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="70dp"
+                android:textColor="@color/black"
+                android:text="@string/Text3rd"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

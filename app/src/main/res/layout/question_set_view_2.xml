@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/height_text_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/height"
+            android:textSize="@dimen/question_text_size" />
+
+        <EditText
+            android:id="@+id/height_input"
+            android:layout_width="@dimen/big_number_width"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/question_view_margin_start"
+            android:hint="@string/height_hint"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/height_text_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/question_view_margin_start"
+            android:text="@string/inches"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/weight_text_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weight"
+            android:textSize="@dimen/question_text_size" />
+
+        <EditText
+            android:id="@+id/weight_input"
+            android:layout_width="@dimen/big_number_width"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/question_view_margin_start"
+            android:hint="@string/weight_hint"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/weight_text_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/question_view_margin_start"
+            android:text="@string/kg"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sweating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/sweating_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/sweating_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_sweating"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/blood_pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/blood_pressure_text_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blood_pressure"
+            android:textSize="@dimen/question_text_size" />
+
+        <EditText
+            android:id="@+id/blood_pressure_high_input"
+            android:layout_width="@dimen/small_number_width"
+            android:layout_height="wrap_content"
+            android:hint="@string/high"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slash"
+            android:textSize="@dimen/question_text_size" />
+
+        <EditText
+            android:id="@+id/blood_pressure_low_input"
+            android:layout_width="@dimen/small_number_width"
+            android:layout_height="wrap_content"
+            android:hint="@string/low"
+            android:importantForAutofill="no"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/blood_pressure_text_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mmhg"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pelvic_pain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/pelvic_pain_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/pelvic_pain_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_pelvic"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/burning_urinating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/burning_urinating_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/burning_urinating_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_burning_urinating"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/unusual_urine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/unusual_urine_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/unusual_urine_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_urine_unusual"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/fatigue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/fatigue_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/fatigue_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_fatigue"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/weak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/weak_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/weak_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_weak"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pale_skin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/pale_skin_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/pale_skin_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_pale_skin"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dizzy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/dizzy_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/dizzy_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_dizzy"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/shortness_breath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/shortness_breath_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/shortness_breath_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_shortness_breath"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirst_increased"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/thirst_increased_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/thirst_increased_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_thirst_increased"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frequent_urination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/question_view_margin_start"
+        android:layout_marginTop="@dimen/question_view_margin_top"
+        android:layout_marginBottom="@dimen/question_view_margin_bottom"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/frequent_urination_checkbox"
+            android:layout_width="@dimen/question_checkbox_size"
+            android:layout_height="@dimen/question_checkbox_size" />
+
+        <TextView
+            android:id="@+id/frequent_urination_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_frequent_urination"
+            android:textSize="@dimen/question_text_size" />
+    </LinearLayout>
+</LinearLayout>

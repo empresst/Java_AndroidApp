@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        tools:context=".ui.slideshow.SlideshowFragment"
+        android:padding="10dp">
+
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="351dp"
+            android:layout_height="189dp"
+            android:layout_marginTop="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.733"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.379" />
+        <TextView
+            android:id="@+id/firstCaption"
+            android:text="3rd month excercise practice"
+            android:textColor="@color/black"
+            android:layout_width="351dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.589"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/videoView"
+            />
+
+        <VideoView
+            android:id="@+id/videoView2"
+            android:layout_width="355dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.589"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstCaption" />
+
+        <TextView
+            android:id="@+id/secondCaption"
+            android:text="5th month excercise practice"
+            android:textColor="@color/black"
+            android:layout_width="351dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.589"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/videoView2"
+            />
+
+        <VideoView
+            android:id="@+id/videoView4"
+            android:layout_width="355dp"
+            android:layout_height="164dp"
+            android:layout_marginTop="28dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.589"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/videoView2" />
+
+        <VideoView
+            android:id="@+id/videoView3"
+            android:layout_width="363dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/videoView4"
+            app:layout_constraintVertical_bias="1.0" />/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="splash_screen_text_size">40sp</dimen>
+    <dimen name="splash_screen_text_margin_top">20dp</dimen>
+    <dimen name="data_entry_bottom_bar_height">80dp</dimen>
+    <dimen name="question_view_margin_start">10dp</dimen>
+    <dimen name="question_view_margin_top">10dp</dimen>
+    <dimen name="question_view_margin_bottom">10dp</dimen>
+    <dimen name="question_checkbox_size">48dp</dimen>
+    <dimen name="question_text_size">20sp</dimen>
+    <dimen name="big_number_width">200dp</dimen>
+    <dimen name="small_number_width">70dp</dimen>
+</resources>
