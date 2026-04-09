@@ -93,8 +93,8 @@ Community Interaction → Expert & Peer Support
 
 <p float="left">
   <img src="images/g.png" width="200" />
-  <img src="images/g.png" width="200" />
-  <img src="images/g.png" width="200" />
+  <img src="images/h.png" width="200" />
+  <img src="images/i.png" width="200" />
 </p>
 
 ---
